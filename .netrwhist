@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/armin/git/puppet-somea/modules/bacula/files'
+let g:netrw_dirhist_2='/home/armin/git/puppet-somea/modules/bacula'
+let g:netrw_dirhist_3='/home/armin/git/puppet-somea/modules/bacula/manifests'
+let g:netrw_dirhist_4='/home/armin/git/puppet-somea/modules/bacula/templates'
+let g:netrw_dirhist_5='/Users/armin/Downloads'
+let g:netrw_dirhist_6='/Users/armin/.vim/bundle'
+let g:netrw_dirhist_7='/Users/armin/.vim/plugins'
+let g:netrw_dirhist_8='/Users/armin/git/oh-my-zsh'
