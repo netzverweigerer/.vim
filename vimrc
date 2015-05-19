@@ -22,4 +22,28 @@ endif
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 
+nnoremap J mzJ`z
+
+
+set directory=~/.vim/swap
+set backupdir=~/.vim/backup
+
+nnoremap <F1> <nop>
+nnoremap Q <nop>
+nnoremap K <nop>
+
+set shortmess+=I
+
+set backspace=indent,eol,start
+
+set visualbell t_vb=
+
+
+
+
+
+
+
+
+
 
