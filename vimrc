@@ -32,13 +32,11 @@ nnoremap <F1> <nop>
 nnoremap Q <nop>
 nnoremap K <nop>
 
+" disable greeting message
 set shortmess+=I
 
+" workaround to fix backspace
 set backspace=indent,eol,start
-
-set visualbell t_vb=
-
-
 
 
 
