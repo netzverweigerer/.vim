@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/armin/void-packages/srcpkgs/xbps-static'
-let g:netrw_dirhist_2='/home/armin/xbps'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/etc/postfix'
+let g:netrw_dirhist_2='/home/armin/backup/armin/armin-old/armin/foobar1/upload_rpm_to_cobbler'
+let g:netrw_dirhist_3='/home/armin'
+let g:netrw_dirhist_4='/home/armin/.android'
