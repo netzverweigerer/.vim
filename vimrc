@@ -1,5 +1,5 @@
 syn on
-set bg=dark
+"colorscheme bubblegum-256-dark
 colorscheme moxokai
 set hlsearch
 set modeline
@@ -12,11 +12,6 @@ set bs=2
 command Wq wq
 command Q q
 au FileType xml exe ":silent %!xmllint --format --recover - 2>/dev/null"
-
-if !exists("autocommands_loaded")
-  let autocommands_loaded = 1
-  autocmd BufRead,BufNewFile,FileReadPost *.py source ~/.vim/python
-endif
 
 " This beauty remembers where you were the last time you edited the file, and returns to the same position.
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
@@ -38,10 +33,14 @@ set shortmess+=I
 " workaround to fix backspace
 set backspace=indent,eol,start
 
+set bg=dark
+
+" set indentation rules (tabstop, shiftwidth, softtabstop, expandtab)
+set ts=2 sw=2 sts=2 et
 
 
 
-
+set timeoutlen=1000 ttimeoutlen=0
 
 
 
